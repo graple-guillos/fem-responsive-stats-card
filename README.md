@@ -22,8 +22,7 @@ Usuários devem ser capazes de:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [fem - responsive card url](https://fem-responsive-stats-card.vercel.app/)
 
 ### Built with
 
