@@ -1,0 +1,59 @@
+//mobile min-width: 375px
+//desktop max-width: 1440px
+
+//mobile: 375px - 480px
+//tablet: 480px - 768px
+//desktop: 768px and beyond
+
+@media (min-width: 480px) //mobile to tablet
+  .mobileImg
+    border-top-right-radius: 8px
+    border-top-left-radius: 8px
+
+  .content
+    display: flex
+    justify-content: space-evenly
+
+    max-width: 100%
+
+  .cardContainer
+    max-width: 640px
+    margin-top: 5rem
+
+    padding-bottom: 5rem
+
+
+@media (min-width: 868px) //tablet to desktop
+    .cardContainer
+      display: flex //display: block is the default. use it to cancel flexbox
+      flex-direction: row-reverse
+
+      padding-bottom: 0
+    
+    .mobileImg
+      display: none
+    
+    .desktopImg
+      display: block
+
+      border-top-right-radius: 8px
+      border-bottom-right-radius: 8px
+
+    .cardContainer
+      min-width: 850px
+      max-width: none
+      margin-top: 5rem
+      
+    .contentContainer
+      margin: auto
+      margin-left: 1.5rem
+      margin-right: 1.5rem
+
+    p,
+    h1
+      text-align: left
+
+    .filter
+      border-top-right-radius: 8px
+      border-bottom-right-radius: 8px
+      

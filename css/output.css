@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  background-color: var(--mainbgColor);
+  color: var(--heading);
+  font-family: "Inter", sans-serif;
+  font-size: 0.9375;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.desktopImg {
+  display: none;
+}
+
+.mobileImg {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.filter {
+  background-color: hsl(277deg, 100%, 20%);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+img {
+  opacity: 0.5;
+  filter: blur(0.7px);
+}
+
+.cardContainer {
+  margin: auto;
+  width: 90%;
+  padding-bottom: 2.5rem;
+  border-radius: 8px;
+  background-color: var(--cardbgColor);
+}
+
+span {
+  color: var(--accentColor);
+}
+
+h1 {
+  color: var(--heading);
+}
+
+.heading {
+  color: var(--mainPara);
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.contentContainer {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.ex {
+  color: var(--content);
+}
+
+.attribution {
+  margin-top: 8rem;
+}
+
+:root {
+  --mainbgColor: hsl(233, 47%, 7%);
+  --cardbgColor: hsl(244, 38%, 16%);
+  --accentColor: hsl(277, 64%, 61%);
+  --heading: hsl(0, 0%, 100%);
+  --mainPara: hsla(0, 0%, 100%, 0.75);
+  --content: hsla(0, 0%, 100%, 0.6);
+}
+
+@media (min-width: 480px) {
+  .mobileImg {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  .content {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+  }
+  .cardContainer {
+    max-width: 640px;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+@media (min-width: 868px) {
+  .cardContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 0;
+  }
+  .mobileImg {
+    display: none;
+  }
+  .desktopImg {
+    display: block;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  .cardContainer {
+    min-width: 850px;
+    max-width: none;
+    margin-top: 5rem;
+  }
+  .contentContainer {
+    margin: auto;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  p,
+h1 {
+    text-align: left;
+  }
+  .filter {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
