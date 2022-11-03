@@ -17,7 +17,7 @@ Usuários devem ser capazes de:
 
 ### Screenshot
 
-![Screenshot of the solution](/'stats card preview.png')
+![Screenshot of the solution](screenshot.png)
 
 
 ### Links
