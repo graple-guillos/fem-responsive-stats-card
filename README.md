@@ -51,7 +51,7 @@ Eu aprendi o básico de media queries e design responsivo.
 ### Continued development
 
 [english]
-I want to learn more about responsive design. This is a very interesting topic and i want to dive even deeper on it.
+I want to learn more about responsive design. This is a very interesting topic and i want to dive even deeper into it.
 
 [português]
 Quero aprender ainda mais sobre design responsivo. É um tópico interessantíssimo e eu quero compreender ainda mais.
